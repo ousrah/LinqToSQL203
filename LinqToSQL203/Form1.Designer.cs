@@ -48,6 +48,16 @@
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button12 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -176,6 +186,7 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(333, 34);
             this.button13.TabIndex = 2;
+            this.button13.Text = "editeurs avec ouvrages";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
@@ -185,6 +196,7 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(333, 34);
             this.button14.TabIndex = 2;
+            this.button14.Text = "tous les editeurs";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
@@ -194,6 +206,7 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(333, 34);
             this.button15.TabIndex = 2;
+            this.button15.Text = "inner join ouvrage editeur";
             this.button15.UseVisualStyleBackColor = true;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
@@ -203,6 +216,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(333, 34);
             this.button16.TabIndex = 2;
+            this.button16.Text = "left join editeur ouvrage";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
@@ -212,6 +226,7 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(333, 34);
             this.button17.TabIndex = 2;
+            this.button17.Text = "extraire un table d\'une autre";
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
@@ -221,6 +236,7 @@
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(333, 34);
             this.button18.TabIndex = 2;
+            this.button18.Text = "nombre des editeurs par ville";
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
@@ -230,23 +246,120 @@
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(333, 34);
             this.button19.TabIndex = 2;
+            this.button19.Text = "nombre des ouvrages par editeur";
             this.button19.UseVisualStyleBackColor = true;
             this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(11, 693);
+            this.button20.Location = new System.Drawing.Point(9, 731);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(333, 34);
             this.button20.TabIndex = 3;
+            this.button20.Text = "somme des prix de vente par editeur";
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1152, 297);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Inserer";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1096, 178);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 16);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "telephone";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1096, 149);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 16);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "ville";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1096, 120);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 16);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Nom";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(1180, 178);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(206, 22);
+            this.textBox3.TabIndex = 16;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(1180, 149);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(206, 22);
+            this.textBox2.TabIndex = 15;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(1180, 120);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(206, 22);
+            this.textBox1.TabIndex = 14;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(821, 36);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(242, 24);
+            this.comboBox1.TabIndex = 13;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(821, 83);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(242, 260);
+            this.listBox1.TabIndex = 12;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(11, 693);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(333, 34);
+            this.button12.TabIndex = 3;
+            this.button12.Text = "regroupement sur plusieurs champs";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 826);
+            this.ClientSize = new System.Drawing.Size(1448, 826);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button9);
@@ -298,6 +411,16 @@
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button12;
     }
 }
 
