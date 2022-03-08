@@ -313,7 +313,7 @@ namespace LinqToSQL203
                      join ouv in db.OUVRAGE on edi.NOMED equals ouv.NOMED
                      join tar in db.TARIFER on ouv.NUMOUVR equals tar.NUMOUVR
                      group tar by tar.OUVRAGE.EDITEUR.NOMED into Gtar
-                     select new { editeur = Gtar.Key, total = Gtar.Sum(c => c.PRIXVENTE) }; //expression lambda
+                     select new { editeur = Gtar.Key, total =  Math.Round((double) Gtar.Sum(c => c.PRIXVENTE),2,MidpointRounding.AwayFromZero)}; //expression lambda
 
 
 
