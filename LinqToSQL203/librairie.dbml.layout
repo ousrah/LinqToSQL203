@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.125, 11.875" name="librairie">
+  <DataContextMoniker Name="/librairieDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8d74a46c-7f10-4dbe-a28d-876bddfc62bb" absoluteBounds="6.125, 1.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/librairieDataContext/CATALOGUE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fae935bb-302b-41b3-9810-ada8ecac217a" absoluteBounds="6.1400000000000006, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e9f5734-8e0d-4edf-bc0e-5c8a70c02364" absoluteBounds="8.875, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/librairieDataContext/TARIFER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5448d98b-64a4-4654-9ed7-813350f5a7b8" absoluteBounds="8.89, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="639ee30d-fa82-4e05-be42-f5c9c2d84bb8" absoluteBounds="3.375, 4.125, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/librairieDataContext/CLASSIFICATION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9796d75-a488-4ef7-b163-3acf6b09dbed" absoluteBounds="3.39, 4.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="451b32c6-3ba7-4674-a2f5-14028d802436" absoluteBounds="6.125, 9.875, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/librairieDataContext/DEPOT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4272c3e4-68a7-4830-a29d-cc11bffea087" absoluteBounds="6.1400000000000006, 10.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54534277-4fae-4e52-a6f0-25638815534e" absoluteBounds="8.875, 4.125, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/librairieDataContext/ECRIRE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="631ba78d-ff18-4fc4-bee3-60f149050c0b" absoluteBounds="8.89, 4.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d81a148f-d0f9-4a2e-aebf-87bfea249460" absoluteBounds="6.125, 6.875, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/librairieDataContext/ECRIVAIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00d5b807-1f87-49fa-a1b7-e6e77e63e36e" absoluteBounds="6.1400000000000006, 7.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2da84a9b-e254-46a4-8ec8-4c68fc00635d" absoluteBounds="3.375, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/librairieDataContext/EDITEUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df35ea5e-33d7-4460-87c3-6a6922a23485" absoluteBounds="3.39, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e47650c-76c6-4937-8bba-3c8d1c8a2965" absoluteBounds="6.125, 3.875, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/librairieDataContext/OUVRAGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4136049d-a0fb-4689-8577-b8953be4307f" absoluteBounds="6.1400000000000006, 4.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01786419-9836-4132-99a6-8bb2c761dbc4" absoluteBounds="8.875, 7.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/librairieDataContext/STOCKER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d98f240-6a27-4104-8bac-c26eb7c77a9c" absoluteBounds="8.89, 7.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.125 : 2.13064697265625); (8.41666666666667 : 2.13064697265625 : JumpStart); (8.58333333333333 : 2.13064697265625 : JumpEnd); (8.875 : 2.13064697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/CATALOGUE/CATALOGUE_TARIFER" />
+      <nodes>
+        <classShapeMoniker Id="8d74a46c-7f10-4dbe-a28d-876bddfc62bb" />
+        <classShapeMoniker Id="3e9f5734-8e0d-4edf-bc0e-5c8a70c02364" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 6.875); (8.5 : 6.5); (8.5 : 4.72199625651042); (8.875 : 4.72199625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/ECRIVAIN/ECRIVAIN_ECRIRE" />
+      <nodes>
+        <classShapeMoniker Id="d81a148f-d0f9-4a2e-aebf-87bfea249460" />
+        <classShapeMoniker Id="54534277-4fae-4e52-a6f0-25638815534e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 3.875); (8.5 : 3.5); (8.5 : 1.59657148632813); (8.875 : 1.59657148632813)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/OUVRAGE/OUVRAGE_TARIFER" />
+      <nodes>
+        <classShapeMoniker Id="5e47650c-76c6-4937-8bba-3c8d1c8a2965" />
+        <classShapeMoniker Id="3e9f5734-8e0d-4edf-bc0e-5c8a70c02364" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 4.36099812825521); (8.875 : 4.36099812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/OUVRAGE/OUVRAGE_ECRIRE" />
+      <nodes>
+        <classShapeMoniker Id="5e47650c-76c6-4937-8bba-3c8d1c8a2965" />
+        <classShapeMoniker Id="54534277-4fae-4e52-a6f0-25638815534e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 4.72199625651042); (5.66666666666667 : 4.72199625651042 : JumpStart); (5.83333333333333 : 4.72199625651042 : JumpEnd); (6.125 : 4.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/CLASSIFICATION/CLASSIFICATION_OUVRAGE" />
+      <nodes>
+        <classShapeMoniker Id="639ee30d-fa82-4e05-be42-f5c9c2d84bb8" />
+        <classShapeMoniker Id="5e47650c-76c6-4937-8bba-3c8d1c8a2965" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 2.64589680989583); (5.75 : 3.02089680989583); (5.75 : 5.21519853320313); (6.125 : 5.21519853320313)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/EDITEUR/EDITEUR_OUVRAGE" />
+      <nodes>
+        <classShapeMoniker Id="2da84a9b-e254-46a4-8ec8-4c68fc00635d" />
+        <classShapeMoniker Id="5e47650c-76c6-4937-8bba-3c8d1c8a2965" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 10.7604484049479); (9.875 : 10.7604484049479); (9.875 : 8.5112939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/DEPOT/DEPOT_STOCKER" />
+      <nodes>
+        <classShapeMoniker Id="451b32c6-3ba7-4674-a2f5-14028d802436" />
+        <classShapeMoniker Id="01786419-9836-4132-99a6-8bb2c761dbc4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 5.58323330739183); (8.44107443490112 : 5.89930774229295 : JumpStart); (8.55892556509888 : 6.01715887249071 : JumpEnd); (8.6875 : 6.14573330739183); (8.6875 : 7.81814697265625); (8.875 : 7.81814697265625)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/librairieDataContext/OUVRAGE/OUVRAGE_STOCKER" />
+      <nodes>
+        <classShapeMoniker Id="5e47650c-76c6-4937-8bba-3c8d1c8a2965" />
+        <classShapeMoniker Id="01786419-9836-4132-99a6-8bb2c761dbc4" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
